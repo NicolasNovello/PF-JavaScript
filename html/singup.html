@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sing Up</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@10/dist/sweetalert2.min.css"
+    />
+  </head>
+  <body class="singup-img">
+    <main>
+      <section class="section">
+        <h1>Registro</h1>
+        <form id="signupForm">
+          <label>Nombre de usuario</label>
+          <input
+            type="text"
+            placeholder="Nicolas"
+            id="name"
+            required
+            autofocus
+          />
+          <label>Mail</label>
+          <input
+            type="email"
+            placeholder="nico1827@gmail.com"
+            id="email"
+            required
+          />
+          <label>Contraseña</label>
+          <input
+            type="password"
+            placeholder="escriba una contraseña"
+            id="password"
+            required
+          />
+          <input type="submit" value="Registro" />
+        </form>
+        <p>¿Ya tienes una cuenta? <a href="login.html">Login</a></p>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/singup.js"></script>
+  </body>
+</html>
