@@ -20,6 +20,7 @@ body {
 
 .section h1 {
   font-size: 3em;
+  color: #eee;
 }
 
 .section h2 {
@@ -42,6 +43,7 @@ body {
   width: 100%;
   padding: 0.2em;
   margin-bottom: 0.5em;
+  color: #eee;
 }
 
 .section form input {
@@ -51,7 +53,7 @@ body {
   border-radius: 0.5625rem;
   border: none;
   outline-color: #003dff;
-  color: #fff;
+  color: #eee;
 }
 
 .section form input[type="submit"] {
@@ -60,12 +62,106 @@ body {
   color: #fff;
 }
 
+.section form input[type="submit"]:active {
+  transform: scale(0.97);
+}
+
 .section button {
-  background-color: aliceblue;
+  background-color: #003dff;
   color: #fff;
-  border: solid;
-  padding: 1em 4em;
-  border-radius: 0.9375rem;
-  margin-top: 2em;
-  font-size: 1.5em;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 0.5625rem;
+  margin-top: 1.5em;
+  font-size: 1em;
+}
+
+p {
+  margin-top: 1.5em;
+  color: #eee;
+}
+
+p a {
+  text-decoration: none;
+  color: #003dff;
+}
+
+.login-img {
+  background-repeat: repeat;
+  background-size: contain;
+  background-image: url(https://cdn.create.vista.com/api/media/medium/199655808/stock-photo-close-view-glasses-burning-sanbuca-alcohol-drink-black-background?token=);
+  color: #eee;
+}
+
+.productos-img {
+  background-image: url(https://cdn.create.vista.com/api/media/medium/199655808/stock-photo-close-view-glasses-burning-sanbuca-alcohol-drink-black-background?token=);
+}
+
+.singup-img {
+  background-image: url(https://album.mediaset.es/eimg/10000/2022/05/17/clipping_MSvJ5N_b654.jpg?w=1200);
+}
+
+.card {
+  margin: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 0.0625rem solid #ccc;
+  border-radius: 0.3125rem;
+  padding: 0.9375rem;
+}
+
+.card img {
+  max-width: 100%;
+  height: 12.5rem;
+}
+
+.card-title {
+  margin-top: 0.625rem;
+  font-size: 1.2rem;
+}
+
+.card-precio {
+  font-size: 1.1rem;
+  color: #007bff;
+  margin-top: 0.3125rem;
+}
+
+.card-boton {
+  margin-top: 0.625rem;
+}
+
+.carrito-item,
+.total {
+  color: #eee;
+}
+
+.index-section {
+  display: grid;
+  place-items: center;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: #ffefef;
+  background-image: url(https://album.mediaset.es/eimg/10000/2022/05/17/clipping_MSvJ5N_b654.jpg?w=1200);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.body h1 {
+  font-size: 4.375rem;
+}
+
+.body a {
+  color: #ffffff;
+  font-size: 3.125rem;
+}
+
+.index-info {
+  text-align: center;
 }
