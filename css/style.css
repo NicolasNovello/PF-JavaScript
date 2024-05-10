@@ -53,7 +53,7 @@ body {
   border-radius: 0.5625rem;
   border: none;
   outline-color: #003dff;
-  color: #eee;
+  color: black;
 }
 
 .section form input[type="submit"] {
